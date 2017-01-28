@@ -1,0 +1,574 @@
+Sun Sep 18 00:28:49.286 [initandlisten] MongoDB starting : pid=31606 port=27017 dbpath=/var/lib/mongodb 32-bit host=raspberrypi
+Sun Sep 18 00:28:49.287 [initandlisten] 
+Sun Sep 18 00:28:49.288 [initandlisten] ** NOTE: This is a 32 bit MongoDB binary.
+Sun Sep 18 00:28:49.288 [initandlisten] **       32 bit builds are limited to less than 2GB of data (or less with --journal).
+Sun Sep 18 00:28:49.288 [initandlisten] **       See http://dochub.mongodb.org/core/32bit
+Sun Sep 18 00:28:49.298 [initandlisten] 
+Sun Sep 18 00:28:49.300 [initandlisten] db version v2.4.10
+Sun Sep 18 00:28:49.300 [initandlisten] git version: nogitversion
+Sun Sep 18 00:28:49.301 [initandlisten] build info: Linux bm-wb-03 3.19.0-trunk-armmp #1 SMP Debian 3.19.1-1~exp1+plugwash1 (2015-03-28) armv7l BOOST_LIB_VERSION=1_55
+Sun Sep 18 00:28:49.301 [initandlisten] allocator: system
+Sun Sep 18 00:28:49.302 [initandlisten] options: { bind_ip: "127.0.0.1", config: "/etc/mongodb.conf", dbpath: "/var/lib/mongodb", journal: "true", logappend: "true", logpath: "/var/log/mongodb/mongodb.log" }
+Sun Sep 18 00:28:49.330 [initandlisten] journal dir=/var/lib/mongodb/journal
+Sun Sep 18 00:28:49.331 [initandlisten] recover : no journal files present, no recovery needed
+Sun Sep 18 00:29:00.504 [initandlisten] preallocateIsFaster=true 30.58
+Sun Sep 18 00:29:31.953 [initandlisten] preallocateIsFaster=true 390.78
+Sun Sep 18 00:29:38.281 [initandlisten] preallocateIsFaster=true 67.8
+Sun Sep 18 00:29:38.282 [initandlisten] preallocateIsFaster check took 48.947 secs
+Sun Sep 18 00:29:38.283 [initandlisten] preallocating a journal file /var/lib/mongodb/journal/prealloc.0
+Sun Sep 18 00:29:59.563 [initandlisten] 		File Preallocator Progress: 94371840/268435456	35%
+Sun Sep 18 00:30:02.251 [initandlisten] 		File Preallocator Progress: 167772160/268435456	62%
+Sun Sep 18 00:30:05.281 [initandlisten] 		File Preallocator Progress: 178257920/268435456	66%
+Sun Sep 18 00:30:19.853 [initandlisten] 		File Preallocator Progress: 188743680/268435456	70%
+Sun Sep 18 00:30:22.373 [initandlisten] 		File Preallocator Progress: 241172480/268435456	89%
+Sun Sep 18 00:30:26.221 [initandlisten] 		File Preallocator Progress: 262144000/268435456	97%
+Sun Sep 18 00:30:43.494 [initandlisten] preallocating a journal file /var/lib/mongodb/journal/prealloc.1
+Sun Sep 18 00:30:46.971 [initandlisten] 		File Preallocator Progress: 62914560/268435456	23%
+Sun Sep 18 00:30:56.515 [initandlisten] 		File Preallocator Progress: 73400320/268435456	27%
+Sun Sep 18 00:30:59.411 [initandlisten] 		File Preallocator Progress: 104857600/268435456	39%
+Sun Sep 18 00:31:08.870 [initandlisten] 		File Preallocator Progress: 125829120/268435456	46%
+Sun Sep 18 00:31:12.541 [initandlisten] 		File Preallocator Progress: 167772160/268435456	62%
+Sun Sep 18 00:31:21.881 [initandlisten] 		File Preallocator Progress: 178257920/268435456	66%
+Sun Sep 18 00:31:24.051 [initandlisten] 		File Preallocator Progress: 220200960/268435456	82%
+Sun Sep 18 00:31:34.832 [initandlisten] 		File Preallocator Progress: 241172480/268435456	89%
+Sun Sep 18 00:31:45.159 [initandlisten] preallocating a journal file /var/lib/mongodb/journal/prealloc.2
+Sun Sep 18 00:31:48.611 [initandlisten] 		File Preallocator Progress: 62914560/268435456	23%
+Sun Sep 18 00:31:58.008 [initandlisten] 		File Preallocator Progress: 73400320/268435456	27%
+Sun Sep 18 00:32:11.316 [initandlisten] 		File Preallocator Progress: 125829120/268435456	46%
+Sun Sep 18 00:32:14.322 [initandlisten] 		File Preallocator Progress: 178257920/268435456	66%
+Sun Sep 18 00:32:27.159 [initandlisten] 		File Preallocator Progress: 199229440/268435456	74%
+Sun Sep 18 00:32:30.582 [initandlisten] 		File Preallocator Progress: 251658240/268435456	93%
+Sun Sep 18 00:32:41.927 [initandlisten] 		File Preallocator Progress: 262144000/268435456	97%
+Sun Sep 18 00:32:44.811 [FileAllocator] allocating new datafile /var/lib/mongodb/local.ns, filling with zeroes...
+Sun Sep 18 00:32:44.812 [FileAllocator] creating directory /var/lib/mongodb/_tmp
+Sun Sep 18 00:32:44.842 [FileAllocator] done allocating datafile /var/lib/mongodb/local.ns, size: 16MB,  took 0.016 secs
+Sun Sep 18 00:32:44.908 [FileAllocator] allocating new datafile /var/lib/mongodb/local.0, filling with zeroes...
+Sun Sep 18 00:32:44.925 [FileAllocator] done allocating datafile /var/lib/mongodb/local.0, size: 16MB,  took 0.016 secs
+Sun Sep 18 00:32:44.930 [initandlisten] command local.$cmd command: { create: "startup_log", size: 10485760, capped: true } ntoreturn:1 keyUpdates:0  reslen:37 120ms
+Sun Sep 18 00:32:44.940 [websvr] admin web console waiting for connections on port 28017
+Sun Sep 18 00:32:44.976 [initandlisten] waiting for connections on port 27017
+Sun Sep 18 00:42:23.205 [initandlisten] connection accepted from 127.0.0.1:41382 #1 (1 connection now open)
+Sun Sep 18 00:43:59.137 [conn1] end connection 127.0.0.1:41382 (0 connections now open)
+
+
+***** SERVER RESTARTED *****
+
+
+Sun Sep 18 00:46:41.895 [initandlisten] MongoDB starting : pid=31752 port=27017 dbpath=/var/lib/mongodb 32-bit host=raspberrypi
+Sun Sep 18 00:46:41.896 [initandlisten] 
+Sun Sep 18 00:46:41.896 [initandlisten] ** NOTE: This is a 32 bit MongoDB binary.
+Sun Sep 18 00:46:41.896 [initandlisten] **       32 bit builds are limited to less than 2GB of data (or less with --journal).
+Sun Sep 18 00:46:41.897 [initandlisten] **       See http://dochub.mongodb.org/core/32bit
+Sun Sep 18 00:46:41.897 [initandlisten] 
+Sun Sep 18 00:46:41.898 [initandlisten] db version v2.4.10
+Sun Sep 18 00:46:41.898 [initandlisten] git version: nogitversion
+Sun Sep 18 00:46:41.898 [initandlisten] build info: Linux bm-wb-03 3.19.0-trunk-armmp #1 SMP Debian 3.19.1-1~exp1+plugwash1 (2015-03-28) armv7l BOOST_LIB_VERSION=1_55
+Sun Sep 18 00:46:41.898 [initandlisten] allocator: system
+Sun Sep 18 00:46:41.898 [initandlisten] options: { bind_ip: "127.0.0.1", config: "/etc/mongodb.conf", dbpath: "/var/lib/mongodb", journal: "true", logappend: "true", logpath: "/var/log/mongodb/mongodb.log" }
+Sun Sep 18 00:46:41.909 [initandlisten] exception in initAndListen: 10310 Unable to lock file: /var/lib/mongodb/mongod.lock. Is a mongod instance already running?, terminating
+Sun Sep 18 00:46:41.909 dbexit: 
+Sun Sep 18 00:46:41.909 [initandlisten] shutdown: going to close listening sockets...
+Sun Sep 18 00:46:41.909 [initandlisten] shutdown: going to flush diaglog...
+Sun Sep 18 00:46:41.910 [initandlisten] shutdown: going to close sockets...
+Sun Sep 18 00:46:41.910 [initandlisten] shutdown: waiting for fs preallocator...
+Sun Sep 18 00:46:41.910 [initandlisten] shutdown: lock for final commit...
+Sun Sep 18 00:46:41.911 [initandlisten] shutdown: final commit...
+Sun Sep 18 00:46:41.911 [initandlisten] shutdown: closing all files...
+Sun Sep 18 00:46:41.911 [initandlisten] closeAllFiles() finished
+Sun Sep 18 00:46:41.912 dbexit: really exiting now
+Sun Sep 18 00:47:42.160 [initandlisten] connection accepted from 127.0.0.1:41384 #2 (1 connection now open)
+Sun Sep 18 00:51:00.929 [conn2] end connection 127.0.0.1:41384 (0 connections now open)
+Sun Sep 18 01:05:42.511 [initandlisten] connection accepted from 127.0.0.1:41386 #3 (1 connection now open)
+Sun Sep 18 01:05:42.543 [conn3] end connection 127.0.0.1:41386 (0 connections now open)
+Sun Sep 18 01:08:48.049 [initandlisten] connection accepted from 127.0.0.1:41388 #4 (1 connection now open)
+Sun Sep 18 01:08:48.081 [conn4] end connection 127.0.0.1:41388 (0 connections now open)
+Sun Sep 18 01:18:10.313 [initandlisten] connection accepted from 127.0.0.1:41390 #5 (1 connection now open)
+Sun Sep 18 01:18:10.465 [conn5] end connection 127.0.0.1:41390 (0 connections now open)
+Sun Sep 18 01:18:29.540 [initandlisten] connection accepted from 127.0.0.1:41392 #6 (1 connection now open)
+Sun Sep 18 01:18:29.575 [conn6] end connection 127.0.0.1:41392 (0 connections now open)
+Sun Sep 18 01:18:43.472 [initandlisten] connection accepted from 127.0.0.1:41394 #7 (1 connection now open)
+Sun Sep 18 01:18:43.584 [conn7] end connection 127.0.0.1:41394 (0 connections now open)
+Sun Sep 18 01:19:58.739 [initandlisten] connection accepted from 127.0.0.1:41396 #8 (1 connection now open)
+Sun Sep 18 01:19:58.792 [FileAllocator] allocating new datafile /var/lib/mongodb/off-fr.ns, filling with zeroes...
+Sun Sep 18 01:19:58.835 [FileAllocator] done allocating datafile /var/lib/mongodb/off-fr.ns, size: 16MB,  took 0.032 secs
+Sun Sep 18 01:19:58.969 [FileAllocator] allocating new datafile /var/lib/mongodb/off-fr.0, filling with zeroes...
+Sun Sep 18 01:19:58.980 [FileAllocator] done allocating datafile /var/lib/mongodb/off-fr.0, size: 16MB,  took 0.009 secs
+Sun Sep 18 01:19:58.982 [FileAllocator] allocating new datafile /var/lib/mongodb/off-fr.1, filling with zeroes...
+Sun Sep 18 01:19:59.007 [FileAllocator] done allocating datafile /var/lib/mongodb/off-fr.1, size: 32MB,  took 0.024 secs
+Sun Sep 18 01:19:59.043 [conn8] build index off-fr.products { _id: 1 }
+Sun Sep 18 01:19:59.081 [conn8] build index done.  scanned 0 total records. 0.037 secs
+Sun Sep 18 01:19:59.121 [conn8] insert off-fr.products ninserted:1 keyUpdates:0 locks(micros) w:349657 351ms
+Sun Sep 18 01:20:00.009 [conn8] insert off-fr.products ninserted:1 keyUpdates:0 locks(micros) w:856846 886ms
+Sun Sep 18 01:20:02.750 [conn8] insert off-fr.products ninserted:1 keyUpdates:0 locks(micros) w:913 911ms
+Sun Sep 18 01:20:05.093 [conn8] insert off-fr.products ninserted:1 keyUpdates:0 locks(micros) w:803 940ms
+Sun Sep 18 01:20:06.295 [FileAllocator] allocating new datafile /var/lib/mongodb/off-fr.2, filling with zeroes...
+Sun Sep 18 01:20:06.312 [FileAllocator] done allocating datafile /var/lib/mongodb/off-fr.2, size: 64MB,  took 0.01 secs
+Sun Sep 18 01:20:09.411 [conn8] insert off-fr.products ninserted:1 keyUpdates:0 locks(micros) w:623 189ms
+Sun Sep 18 01:20:27.050 [conn8] insert off-fr.products ninserted:1 keyUpdates:0 locks(micros) w:616 7441ms
+Sun Sep 18 01:20:27.853 [conn8] insert off-fr.products ninserted:1 keyUpdates:0 locks(micros) w:919 690ms
+Sun Sep 18 01:20:34.574 [FileAllocator] allocating new datafile /var/lib/mongodb/off-fr.3, filling with zeroes...
+Sun Sep 18 01:20:34.586 [FileAllocator] done allocating datafile /var/lib/mongodb/off-fr.3, size: 128MB,  took 0.011 secs
+Sun Sep 18 01:20:36.920 [conn8] insert off-fr.products ninserted:1 keyUpdates:0 locks(micros) w:669 230ms
+Sun Sep 18 01:20:45.487 [conn8] insert off-fr.products ninserted:1 keyUpdates:0 locks(micros) w:726 7866ms
+Sun Sep 18 01:20:48.917 [TTLMonitor] query off-fr.system.indexes query: { expireAfterSeconds: { $exists: true } } ntoreturn:0 ntoskip:0 nscanned:1 keyUpdates:0 locks(micros) r:3980361 nreturned:0 reslen:20 3980ms
+Sun Sep 18 01:20:53.441 [conn8] insert off-fr.products ninserted:1 keyUpdates:0 locks(micros) w:930 4523ms
+Sun Sep 18 01:20:53.893 [conn8] insert off-fr.products ninserted:1 keyUpdates:0 locks(micros) w:620 345ms
+Sun Sep 18 01:20:57.440 [conn8] insert off-fr.products ninserted:1 keyUpdates:0 locks(micros) w:759 579ms
+Sun Sep 18 01:20:59.511 [conn8] insert off-fr.products ninserted:1 keyUpdates:0 locks(micros) w:751 940ms
+Sun Sep 18 01:21:02.248 [conn8] insert off-fr.products ninserted:1 keyUpdates:0 locks(micros) w:787 105ms
+Sun Sep 18 01:21:03.846 [conn8] insert off-fr.products ninserted:1 keyUpdates:0 locks(micros) w:697 222ms
+Sun Sep 18 01:21:04.268 [conn8] insert off-fr.products ninserted:1 keyUpdates:0 locks(micros) w:837 110ms
+Sun Sep 18 01:21:10.551 [conn8] insert off-fr.products ninserted:1 keyUpdates:0 locks(micros) w:604 5379ms
+Sun Sep 18 01:21:18.591 [conn8] insert off-fr.products ninserted:1 keyUpdates:0 locks(micros) w:744 7888ms
+Sun Sep 18 01:21:22.601 [FileAllocator] allocating new datafile /var/lib/mongodb/off-fr.4, filling with zeroes...
+Sun Sep 18 01:21:22.615 [FileAllocator] done allocating datafile /var/lib/mongodb/off-fr.4, size: 256MB,  took 0.012 secs
+Sun Sep 18 01:21:22.811 [conn8] insert off-fr.products ninserted:1 keyUpdates:0 locks(micros) w:622 111ms
+Sun Sep 18 01:21:23.447 [conn8] insert off-fr.products ninserted:1 keyUpdates:0 locks(micros) w:1128 104ms
+Sun Sep 18 01:21:24.450 [conn8] insert off-fr.products ninserted:1 keyUpdates:0 locks(micros) w:808 248ms
+Sun Sep 18 01:21:28.106 [conn8] insert off-fr.products ninserted:1 keyUpdates:0 locks(micros) w:653 139ms
+Sun Sep 18 01:21:32.487 [conn8] insert off-fr.products ninserted:1 keyUpdates:0 locks(micros) w:1026 4014ms
+Sun Sep 18 01:21:38.621 [conn8] insert off-fr.products ninserted:1 keyUpdates:0 locks(micros) w:699 6009ms
+Sun Sep 18 01:21:46.309 [conn8] insert off-fr.products ninserted:1 keyUpdates:0 locks(micros) w:622 7547ms
+Sun Sep 18 01:21:46.563 [conn8] insert off-fr.products ninserted:1 keyUpdates:0 locks(micros) w:787 109ms
+Sun Sep 18 01:21:47.886 [conn8] insert off-fr.products ninserted:1 keyUpdates:0 locks(micros) w:608 987ms
+Sun Sep 18 01:21:49.204 [conn8] insert off-fr.products ninserted:1 keyUpdates:0 locks(micros) w:722 782ms
+Sun Sep 18 01:21:53.544 [conn8] insert off-fr.products ninserted:1 keyUpdates:0 locks(micros) w:953 4211ms
+Sun Sep 18 01:21:53.951 [conn8] insert off-fr.products ninserted:1 keyUpdates:0 locks(micros) w:787 278ms
+Sun Sep 18 01:21:54.404 [conn8] insert off-fr.products ninserted:1 keyUpdates:0 locks(micros) w:647 121ms
+Sun Sep 18 01:21:56.150 [conn8] insert off-fr.products ninserted:1 keyUpdates:0 locks(micros) w:10273 104ms
+Sun Sep 18 01:21:56.863 [conn8] insert off-fr.products ninserted:1 keyUpdates:0 locks(micros) w:709 585ms
+Sun Sep 18 01:21:58.957 [conn8] insert off-fr.products ninserted:1 keyUpdates:0 locks(micros) w:1148 956ms
+Sun Sep 18 01:22:00.900 [conn8] insert off-fr.products ninserted:1 keyUpdates:0 locks(micros) w:645 898ms
+Sun Sep 18 01:22:04.676 [conn8] insert off-fr.products ninserted:1 keyUpdates:0 locks(micros) w:990 103ms
+Sun Sep 18 01:22:06.182 [conn8] insert off-fr.products ninserted:1 keyUpdates:0 locks(micros) w:945 1220ms
+Sun Sep 18 01:22:06.423 [conn8] insert off-fr.products ninserted:1 keyUpdates:0 locks(micros) w:902 110ms
+Sun Sep 18 01:22:12.601 [conn8] insert off-fr.products ninserted:1 keyUpdates:0 locks(micros) w:601 6044ms
+Sun Sep 18 01:22:18.382 [conn8] insert off-fr.products ninserted:1 keyUpdates:0 locks(micros) w:692 5660ms
+Sun Sep 18 01:22:20.522 [conn8] insert off-fr.products ninserted:1 keyUpdates:0 locks(micros) w:1013 102ms
+Sun Sep 18 01:22:24.019 [conn8] insert off-fr.products ninserted:1 keyUpdates:0 locks(micros) w:780 266ms
+Sun Sep 18 01:22:33.279 [conn8] insert off-fr.products ninserted:1 keyUpdates:0 locks(micros) w:881 5848ms
+Sun Sep 18 01:22:38.816 [conn8] insert off-fr.products ninserted:1 keyUpdates:0 locks(micros) w:741 5402ms
+Sun Sep 18 01:22:40.212 [conn8] insert off-fr.products ninserted:1 keyUpdates:0 locks(micros) w:608 105ms
+Sun Sep 18 01:22:41.066 [FileAllocator] allocating new datafile /var/lib/mongodb/off-fr.5, filling with zeroes...
+Sun Sep 18 01:22:41.227 [FileAllocator] done allocating datafile /var/lib/mongodb/off-fr.5, size: 511MB,  took 0.159 secs
+Sun Sep 18 01:22:41.271 [conn8] insert off-fr.products ninserted:1 keyUpdates:0 locks(micros) w:777 142ms
+Sun Sep 18 01:22:45.738 [conn8] insert off-fr.products ninserted:1 keyUpdates:0 locks(micros) w:1071 245ms
+Sun Sep 18 01:22:46.446 [conn8] insert off-fr.products ninserted:1 keyUpdates:0 locks(micros) w:750 584ms
+Sun Sep 18 01:22:56.818 [conn8] insert off-fr.products ninserted:1 keyUpdates:0 locks(micros) w:778 8507ms
+Sun Sep 18 01:23:04.307 [DataFileSync] flushing mmaps took 15923ms  for 8 files
+Sun Sep 18 01:23:04.350 [conn8] insert off-fr.products ninserted:1 keyUpdates:0 locks(micros) w:909 679ms
+Sun Sep 18 01:23:04.588 [conn8] insert off-fr.products ninserted:1 keyUpdates:0 locks(micros) w:905 105ms
+Sun Sep 18 01:23:05.028 [conn8] insert off-fr.products ninserted:1 keyUpdates:0 locks(micros) w:750 116ms
+Sun Sep 18 01:23:05.468 [conn8] insert off-fr.products ninserted:1 keyUpdates:0 locks(micros) w:742 115ms
+Sun Sep 18 01:23:07.188 [conn8] insert off-fr.products ninserted:1 keyUpdates:0 locks(micros) w:1073 616ms
+Sun Sep 18 01:23:11.803 [conn8] insert off-fr.products ninserted:1 keyUpdates:0 locks(micros) w:842 109ms
+Sun Sep 18 01:23:12.244 [conn8] insert off-fr.products ninserted:1 keyUpdates:0 locks(micros) w:911 311ms
+Sun Sep 18 01:23:23.286 [conn8] insert off-fr.products ninserted:1 keyUpdates:0 locks(micros) w:690 5307ms
+Sun Sep 18 01:23:26.594 [conn8] insert off-fr.products ninserted:1 keyUpdates:0 locks(micros) w:731 138ms
+Sun Sep 18 01:23:28.240 [conn8] insert off-fr.products ninserted:1 keyUpdates:0 locks(micros) w:2927 132ms
+Sun Sep 18 01:23:31.507 [conn8] insert off-fr.products ninserted:1 keyUpdates:0 locks(micros) w:727 264ms
+Sun Sep 18 01:23:37.976 [conn8] insert off-fr.products ninserted:1 keyUpdates:0 locks(micros) w:801 5964ms
+Sun Sep 18 01:23:45.809 [conn8] insert off-fr.products ninserted:1 keyUpdates:0 locks(micros) w:864 7676ms
+Sun Sep 18 01:23:47.372 [conn8] insert off-fr.products ninserted:1 keyUpdates:0 locks(micros) w:1074 103ms
+Sun Sep 18 01:23:49.325 [conn8] insert off-fr.products ninserted:1 keyUpdates:0 locks(micros) w:746 853ms
+Sun Sep 18 01:23:54.629 [conn8] insert off-fr.products ninserted:1 keyUpdates:0 locks(micros) w:697 5145ms
+Sun Sep 18 01:23:57.455 [conn8] insert off-fr.products ninserted:1 keyUpdates:0 locks(micros) w:755 793ms
+Sun Sep 18 01:23:59.357 [conn8] insert off-fr.products ninserted:1 keyUpdates:0 locks(micros) w:1115 108ms
+Sun Sep 18 01:24:00.985 [conn8] insert off-fr.products ninserted:1 keyUpdates:0 locks(micros) w:9199 117ms
+Sun Sep 18 01:24:02.326 [conn8] insert off-fr.products ninserted:1 keyUpdates:0 locks(micros) w:1203 266ms
+Sun Sep 18 01:24:04.046 [conn8] insert off-fr.products ninserted:1 keyUpdates:0 locks(micros) w:786 823ms
+Sun Sep 18 01:24:08.469 [conn8] insert off-fr.products ninserted:1 keyUpdates:0 locks(micros) w:856 3060ms
+Sun Sep 18 01:24:09.074 [conn8] insert off-fr.products ninserted:1 keyUpdates:0 locks(micros) w:657 102ms
+Sun Sep 18 01:24:10.321 [conn8] insert off-fr.products ninserted:1 keyUpdates:0 locks(micros) w:973 742ms
+Sun Sep 18 01:24:19.684 [conn8] insert off-fr.products ninserted:1 keyUpdates:0 locks(micros) w:917 9213ms
+Sun Sep 18 01:24:21.476 [conn8] insert off-fr.products ninserted:1 keyUpdates:0 locks(micros) w:963 1007ms
+Sun Sep 18 01:24:22.692 [conn8] insert off-fr.products ninserted:1 keyUpdates:0 locks(micros) w:809 102ms
+Sun Sep 18 01:24:23.758 [conn8] insert off-fr.products ninserted:1 keyUpdates:0 locks(micros) w:990 106ms
+Sun Sep 18 01:24:25.614 [conn8] insert off-fr.products ninserted:1 keyUpdates:0 locks(micros) w:784 110ms
+Sun Sep 18 01:24:26.214 [conn8] insert off-fr.products ninserted:1 keyUpdates:0 locks(micros) w:739 101ms
+Sun Sep 18 01:24:26.762 [conn8] insert off-fr.products ninserted:1 keyUpdates:0 locks(micros) w:971 239ms
+Sun Sep 18 01:24:32.032 [conn8] insert off-fr.products ninserted:1 keyUpdates:0 locks(micros) w:812 3000ms
+Sun Sep 18 01:24:34.087 [conn8] insert off-fr.products ninserted:1 keyUpdates:0 locks(micros) w:1105 107ms
+Sun Sep 18 01:24:43.455 [conn8] insert off-fr.products ninserted:1 keyUpdates:0 locks(micros) w:1009 9238ms
+Sun Sep 18 01:24:45.322 [conn8] insert off-fr.products ninserted:1 keyUpdates:0 locks(micros) w:845 989ms
+Sun Sep 18 01:24:48.266 [conn8] insert off-fr.products ninserted:1 keyUpdates:0 locks(micros) w:1005 123ms
+Sun Sep 18 01:24:49.189 [conn8] insert off-fr.products ninserted:1 keyUpdates:0 locks(micros) w:840 782ms
+Sun Sep 18 01:24:55.740 [conn8] insert off-fr.products ninserted:1 keyUpdates:0 locks(micros) w:1200 6426ms
+Sun Sep 18 01:24:56.003 [conn8] insert off-fr.products ninserted:1 keyUpdates:0 locks(micros) w:1480 131ms
+Sun Sep 18 01:24:57.295 [conn8] insert off-fr.products ninserted:1 keyUpdates:0 locks(micros) w:853 512ms
+Sun Sep 18 01:24:59.970 [conn8] insert off-fr.products ninserted:1 keyUpdates:0 locks(micros) w:893 599ms
+Sun Sep 18 01:25:03.088 [conn8] insert off-fr.products ninserted:1 keyUpdates:0 locks(micros) w:747 265ms
+Sun Sep 18 01:25:04.434 [conn8] insert off-fr.products ninserted:1 keyUpdates:0 locks(micros) w:832 193ms
+Sun Sep 18 01:25:10.016 [conn8] insert off-fr.products ninserted:1 keyUpdates:0 locks(micros) w:913 4694ms
+Sun Sep 18 01:25:16.304 [conn8] insert off-fr.products ninserted:1 keyUpdates:0 locks(micros) w:611 5893ms
+Sun Sep 18 01:25:16.726 [conn8] insert off-fr.products ninserted:1 keyUpdates:0 locks(micros) w:1282 117ms
+Sun Sep 18 01:25:17.386 [conn8] insert off-fr.products ninserted:1 keyUpdates:0 locks(micros) w:621 113ms
+Sun Sep 18 01:25:19.015 [conn8] insert off-fr.products ninserted:1 keyUpdates:0 locks(micros) w:794 572ms
+Sun Sep 18 01:25:22.763 [conn8] insert off-fr.products ninserted:1 keyUpdates:0 locks(micros) w:677 107ms
+Sun Sep 18 01:25:23.791 [conn8] insert off-fr.products ninserted:1 keyUpdates:0 locks(micros) w:742 118ms
+Sun Sep 18 01:25:24.173 [conn8] insert off-fr.products ninserted:1 keyUpdates:0 locks(micros) w:802 252ms
+Sun Sep 18 01:25:25.041 [conn8] insert off-fr.products ninserted:1 keyUpdates:0 locks(micros) w:3769 123ms
+Sun Sep 18 01:25:30.312 [conn8] insert off-fr.products ninserted:1 keyUpdates:0 locks(micros) w:615 4962ms
+Sun Sep 18 01:25:42.017 [conn8] insert off-fr.products ninserted:1 keyUpdates:0 locks(micros) w:800 10825ms
+Sun Sep 18 01:25:43.008 [conn8] insert off-fr.products ninserted:1 keyUpdates:0 locks(micros) w:930 876ms
+Sun Sep 18 01:25:46.062 [conn8] insert off-fr.products ninserted:1 keyUpdates:0 locks(micros) w:820 589ms
+Sun Sep 18 01:25:49.464 [conn8] insert off-fr.products ninserted:1 keyUpdates:0 locks(micros) w:649 979ms
+Sun Sep 18 01:25:56.272 [conn8] insert off-fr.products ninserted:1 keyUpdates:0 locks(micros) w:648 6668ms
+Sun Sep 18 01:25:57.161 [conn8] insert off-fr.products ninserted:1 keyUpdates:0 locks(micros) w:713 769ms
+Sun Sep 18 01:26:01.996 [conn8] insert off-fr.products ninserted:1 keyUpdates:0 locks(micros) w:846 684ms
+Sun Sep 18 01:26:05.535 [conn8] insert off-fr.products ninserted:1 keyUpdates:0 locks(micros) w:728 272ms
+Sun Sep 18 01:26:10.090 [conn8] insert off-fr.products ninserted:1 keyUpdates:0 locks(micros) w:955 3107ms
+Sun Sep 18 01:26:10.668 [conn8] insert off-fr.products ninserted:1 keyUpdates:0 locks(micros) w:790 105ms
+Sun Sep 18 01:26:11.540 [conn8] insert off-fr.products ninserted:1 keyUpdates:0 locks(micros) w:1064 567ms
+Sun Sep 18 01:26:23.460 [conn8] insert off-fr.products ninserted:1 keyUpdates:0 locks(micros) w:896 967ms
+Sun Sep 18 01:26:23.992 [FileAllocator] allocating new datafile /var/lib/mongodb/off-fr.6, filling with zeroes...
+Sun Sep 18 01:26:24.202 [FileAllocator] done allocating datafile /var/lib/mongodb/off-fr.6, size: 511MB,  took 0.209 secs
+Sun Sep 18 01:26:24.242 [conn8] insert off-fr.products ninserted:1 keyUpdates:0 locks(micros) w:764 219ms
+Sun Sep 18 01:26:24.501 [conn8] insert off-fr.products ninserted:1 keyUpdates:0 locks(micros) w:727 134ms
+Sun Sep 18 01:26:26.787 [conn8] insert off-fr.products ninserted:1 keyUpdates:0 locks(micros) w:995 103ms
+Sun Sep 18 01:26:28.412 [conn8] insert off-fr.products ninserted:1 keyUpdates:0 locks(micros) w:726 260ms
+Sun Sep 18 01:26:28.655 [conn8] insert off-fr.products ninserted:1 keyUpdates:0 locks(micros) w:676 103ms
+Sun Sep 18 01:26:38.159 [conn8] insert off-fr.products ninserted:1 keyUpdates:0 locks(micros) w:753 5017ms
+Sun Sep 18 01:26:45.730 [conn8] insert off-fr.products ninserted:1 keyUpdates:0 locks(micros) w:743 7439ms
+Sun Sep 18 01:26:46.565 [conn8] insert off-fr.products ninserted:1 keyUpdates:0 locks(micros) w:629 103ms
+Sun Sep 18 01:26:47.158 [conn8] insert off-fr.products ninserted:1 keyUpdates:0 locks(micros) w:1185 104ms
+Sun Sep 18 01:26:49.349 [conn8] insert off-fr.products ninserted:1 keyUpdates:0 locks(micros) w:841 807ms
+Sun Sep 18 01:26:52.556 [conn8] insert off-fr.products ninserted:1 keyUpdates:0 locks(micros) w:720 3084ms
+Sun Sep 18 01:26:58.358 [conn8] insert off-fr.products ninserted:1 keyUpdates:0 locks(micros) w:609 5468ms
+Sun Sep 18 01:27:01.808 [conn8] insert off-fr.products ninserted:1 keyUpdates:0 locks(micros) w:1102 115ms
+Sun Sep 18 01:27:03.752 [conn8] insert off-fr.products ninserted:1 keyUpdates:0 locks(micros) w:927 840ms
+Sun Sep 18 01:27:04.208 [conn8] insert off-fr.products ninserted:1 keyUpdates:0 locks(micros) w:746 328ms
+Sun Sep 18 01:27:04.445 [conn8] insert off-fr.products ninserted:1 keyUpdates:0 locks(micros) w:1065 110ms
+Sun Sep 18 01:27:06.702 [conn8] insert off-fr.products ninserted:1 keyUpdates:0 locks(micros) w:876 139ms
+Sun Sep 18 01:27:11.032 [conn8] insert off-fr.products ninserted:1 keyUpdates:0 locks(micros) w:719 3370ms
+Sun Sep 18 01:27:12.767 [conn8] insert off-fr.products ninserted:1 keyUpdates:0 locks(micros) w:610 849ms
+Sun Sep 18 01:27:23.821 [conn8] insert off-fr.products ninserted:1 keyUpdates:0 locks(micros) w:648 10722ms
+Sun Sep 18 01:27:25.821 [conn8] insert off-fr.products ninserted:1 keyUpdates:0 locks(micros) w:770 102ms
+Sun Sep 18 01:27:29.302 [conn8] insert off-fr.products ninserted:1 keyUpdates:0 locks(micros) w:708 822ms
+Sun Sep 18 01:27:30.312 [conn8] insert off-fr.products ninserted:1 keyUpdates:0 locks(micros) w:10572 115ms
+Sun Sep 18 01:27:32.429 [conn8] insert off-fr.products ninserted:1 keyUpdates:0 locks(micros) w:5934 123ms
+Sun Sep 18 01:27:33.869 [conn8] insert off-fr.products ninserted:1 keyUpdates:0 locks(micros) w:859 167ms
+Sun Sep 18 01:27:38.980 [conn8] insert off-fr.products ninserted:1 keyUpdates:0 locks(micros) w:6653 4990ms
+Sun Sep 18 01:27:46.650 [conn8] insert off-fr.products ninserted:1 keyUpdates:0 locks(micros) w:673 7529ms
+Sun Sep 18 01:27:48.009 [conn8] insert off-fr.products ninserted:1 keyUpdates:0 locks(micros) w:1098 616ms
+Sun Sep 18 01:27:49.253 [conn8] insert off-fr.products ninserted:1 keyUpdates:0 locks(micros) w:732 720ms
+Sun Sep 18 01:27:51.116 [conn8] insert off-fr.products ninserted:1 keyUpdates:0 locks(micros) w:733 1734ms
+Sun Sep 18 01:27:55.141 [conn8] insert off-fr.products ninserted:1 keyUpdates:0 locks(micros) w:730 3908ms
+Sun Sep 18 01:28:00.718 [conn8] insert off-fr.products ninserted:1 keyUpdates:0 locks(micros) w:8951 587ms
+Sun Sep 18 01:28:00.950 [conn8] insert off-fr.products ninserted:1 keyUpdates:0 locks(micros) w:788 104ms
+Sun Sep 18 01:28:02.998 [conn8] insert off-fr.products ninserted:1 keyUpdates:0 locks(micros) w:5013 115ms
+Sun Sep 18 01:28:05.767 [conn8] insert off-fr.products ninserted:1 keyUpdates:0 locks(micros) w:859 1557ms
+Sun Sep 18 01:28:06.915 [conn8] insert off-fr.products ninserted:1 keyUpdates:0 locks(micros) w:680 1013ms
+Sun Sep 18 01:28:08.675 [conn8] insert off-fr.products ninserted:1 keyUpdates:0 locks(micros) w:785 872ms
+Sun Sep 18 01:28:11.134 [conn8] insert off-fr.products ninserted:1 keyUpdates:0 locks(micros) w:769 2343ms
+Sun Sep 18 01:28:13.020 [conn8] insert off-fr.products ninserted:1 keyUpdates:0 locks(micros) w:1321 618ms
+Sun Sep 18 01:28:23.819 [conn8] insert off-fr.products ninserted:1 keyUpdates:0 locks(micros) w:725 10118ms
+Sun Sep 18 01:28:28.751 [conn8] insert off-fr.products ninserted:1 keyUpdates:0 locks(micros) w:6094 118ms
+Sun Sep 18 01:28:29.841 [conn8] insert off-fr.products ninserted:1 keyUpdates:0 locks(micros) w:722 579ms
+Sun Sep 18 01:28:34.827 [conn8] insert off-fr.products ninserted:1 keyUpdates:0 locks(micros) w:841 334ms
+Sun Sep 18 01:28:39.280 [conn8] insert off-fr.products ninserted:1 keyUpdates:0 locks(micros) w:1242 4331ms
+Sun Sep 18 01:28:47.747 [conn8] insert off-fr.products ninserted:1 keyUpdates:0 locks(micros) w:688 7759ms
+Sun Sep 18 01:28:48.945 [conn8] insert off-fr.products ninserted:1 keyUpdates:0 locks(micros) w:733 912ms
+Sun Sep 18 01:28:51.749 [conn8] insert off-fr.products ninserted:1 keyUpdates:0 locks(micros) w:739 1764ms
+Sun Sep 18 01:28:52.882 [conn8] insert off-fr.products ninserted:1 keyUpdates:0 locks(micros) w:865 1011ms
+Sun Sep 18 01:28:54.294 [conn8] insert off-fr.products ninserted:1 keyUpdates:0 locks(micros) w:685 1292ms
+Sun Sep 18 01:28:56.362 [conn8] insert off-fr.products ninserted:1 keyUpdates:0 locks(micros) w:666 110ms
+Sun Sep 18 01:28:57.700 [conn8] insert off-fr.products ninserted:1 keyUpdates:0 locks(micros) w:1207 108ms
+Sun Sep 18 01:28:58.340 [conn8] insert off-fr.products ninserted:1 keyUpdates:0 locks(micros) w:7751 129ms
+Sun Sep 18 01:28:58.930 [conn8] insert off-fr.products ninserted:1 keyUpdates:0 locks(micros) w:715 122ms
+Sun Sep 18 01:29:00.186 [conn8] insert off-fr.products ninserted:1 keyUpdates:0 locks(micros) w:712 954ms
+Sun Sep 18 01:29:03.067 [conn8] insert off-fr.products ninserted:1 keyUpdates:0 locks(micros) w:1169 133ms
+Sun Sep 18 01:29:05.436 [conn8] insert off-fr.products ninserted:1 keyUpdates:0 locks(micros) w:563233 569ms
+Sun Sep 18 01:29:09.253 [conn8] insert off-fr.products ninserted:1 keyUpdates:0 locks(micros) w:752 3815ms
+Sun Sep 18 01:29:10.460 [conn8] insert off-fr.products ninserted:1 keyUpdates:0 locks(micros) w:694 1077ms
+Sun Sep 18 01:29:18.165 [conn8] insert off-fr.products ninserted:1 keyUpdates:0 locks(micros) w:956 7572ms
+Sun Sep 18 01:29:25.677 [conn8] insert off-fr.products ninserted:1 keyUpdates:0 locks(micros) w:962 215ms
+Sun Sep 18 01:29:27.921 [conn8] insert off-fr.products ninserted:1 keyUpdates:0 locks(micros) w:774 138ms
+Sun Sep 18 01:29:29.511 [conn8] insert off-fr.products ninserted:1 keyUpdates:0 locks(micros) w:794790 794ms
+Sun Sep 18 01:29:33.497 [conn8] insert off-fr.products ninserted:1 keyUpdates:0 locks(micros) w:789 3975ms
+Sun Sep 18 01:29:33.936 [conn8] insert off-fr.products ninserted:1 keyUpdates:0 locks(micros) w:764 124ms
+Sun Sep 18 01:29:34.528 [conn8] insert off-fr.products ninserted:1 keyUpdates:0 locks(micros) w:2793 111ms
+Sun Sep 18 01:29:43.545 [conn8] insert off-fr.products ninserted:1 keyUpdates:0 locks(micros) w:722 8873ms
+Sun Sep 18 01:29:45.649 [conn8] insert off-fr.products ninserted:1 keyUpdates:0 locks(micros) w:853 803ms
+Sun Sep 18 01:29:46.086 [conn8] insert off-fr.products ninserted:1 keyUpdates:0 locks(micros) w:771 122ms
+Sun Sep 18 01:29:46.770 [conn8] insert off-fr.products ninserted:1 keyUpdates:0 locks(micros) w:610 128ms
+Sun Sep 18 01:29:47.406 [conn8] insert off-fr.products ninserted:1 keyUpdates:0 locks(micros) w:5275 160ms
+Sun Sep 18 01:29:48.913 [conn8] insert off-fr.products ninserted:1 keyUpdates:0 locks(micros) w:835 441ms
+Sun Sep 18 01:29:50.423 [conn8] insert off-fr.products ninserted:1 keyUpdates:0 locks(micros) w:613 1396ms
+Sun Sep 18 01:29:56.259 [conn8] insert off-fr.products ninserted:1 keyUpdates:0 locks(micros) w:636 1517ms
+Sun Sep 18 01:29:57.255 [conn8] insert off-fr.products ninserted:1 keyUpdates:0 locks(micros) w:664 118ms
+Sun Sep 18 01:29:57.842 [conn8] insert off-fr.products ninserted:1 keyUpdates:0 locks(micros) w:617 104ms
+Sun Sep 18 01:29:59.238 [conn8] insert off-fr.products ninserted:1 keyUpdates:0 locks(micros) w:1067 731ms
+Sun Sep 18 01:30:00.562 [conn8] insert off-fr.products ninserted:1 keyUpdates:0 locks(micros) w:5126 857ms
+Sun Sep 18 01:30:02.488 [conn8] insert off-fr.products ninserted:1 keyUpdates:0 locks(micros) w:732 125ms
+Sun Sep 18 01:30:03.923 [conn8] insert off-fr.products ninserted:1 keyUpdates:0 locks(micros) w:3003 102ms
+Sun Sep 18 01:30:05.638 [conn8] insert off-fr.products ninserted:1 keyUpdates:0 locks(micros) w:727 826ms
+Sun Sep 18 01:30:06.915 [conn8] insert off-fr.products ninserted:1 keyUpdates:0 locks(micros) w:1006 325ms
+Sun Sep 18 01:30:07.574 [conn8] insert off-fr.products ninserted:1 keyUpdates:0 locks(micros) w:778 140ms
+Sun Sep 18 01:30:14.305 [conn8] insert off-fr.products ninserted:1 keyUpdates:0 locks(micros) w:1022 5652ms
+Sun Sep 18 01:30:21.517 [conn8] insert off-fr.products ninserted:1 keyUpdates:0 locks(micros) w:759 7078ms
+Sun Sep 18 01:30:21.940 [conn8] insert off-fr.products ninserted:1 keyUpdates:0 locks(micros) w:2930 112ms
+Sun Sep 18 01:30:24.725 [conn8] insert off-fr.products ninserted:1 keyUpdates:0 locks(micros) w:1073 123ms
+Sun Sep 18 01:30:25.994 [conn8] insert off-fr.products ninserted:1 keyUpdates:0 locks(micros) w:784 541ms
+Sun Sep 18 01:30:31.402 [conn8] insert off-fr.products ninserted:1 keyUpdates:0 locks(micros) w:749 110ms
+Sun Sep 18 01:30:35.860 [conn8] insert off-fr.products ninserted:1 keyUpdates:0 locks(micros) w:929 3977ms
+Sun Sep 18 01:30:37.316 [conn8] insert off-fr.products ninserted:1 keyUpdates:0 locks(micros) w:814 1334ms
+Sun Sep 18 01:30:45.553 [conn8] insert off-fr.products ninserted:1 keyUpdates:0 locks(micros) w:837 8091ms
+Sun Sep 18 01:30:46.004 [conn8] insert off-fr.products ninserted:1 keyUpdates:0 locks(micros) w:812 136ms
+Sun Sep 18 01:30:46.667 [conn8] insert off-fr.products ninserted:1 keyUpdates:0 locks(micros) w:6171 141ms
+Sun Sep 18 01:30:47.269 [conn8] insert off-fr.products ninserted:1 keyUpdates:0 locks(micros) w:1076 108ms
+Sun Sep 18 01:30:48.938 [conn8] insert off-fr.products ninserted:1 keyUpdates:0 locks(micros) w:485 476ms
+Sun Sep 18 01:30:49.272 [conn8] insert off-fr.products ninserted:1 keyUpdates:0 locks(micros) w:716 203ms
+Sun Sep 18 01:30:54.954 [conn8] insert off-fr.products ninserted:1 keyUpdates:0 locks(micros) w:795 5543ms
+Sun Sep 18 01:30:57.461 [conn8] insert off-fr.products ninserted:1 keyUpdates:0 locks(micros) w:802 964ms
+Sun Sep 18 01:30:57.748 [conn8] insert off-fr.products ninserted:1 keyUpdates:0 locks(micros) w:673 167ms
+Sun Sep 18 01:30:58.921 [conn8] insert off-fr.products ninserted:1 keyUpdates:0 locks(micros) w:6190 105ms
+Sun Sep 18 01:31:03.277 [conn8] insert off-fr.products ninserted:1 keyUpdates:0 locks(micros) w:612 215ms
+Sun Sep 18 01:31:06.506 [conn8] insert off-fr.products ninserted:1 keyUpdates:0 locks(micros) w:686996 687ms
+Sun Sep 18 01:31:10.915 [conn8] insert off-fr.products ninserted:1 keyUpdates:0 locks(micros) w:671 4400ms
+Sun Sep 18 01:31:14.568 [conn8] insert off-fr.products ninserted:1 keyUpdates:0 locks(micros) w:3029473 3029ms
+Sun Sep 18 01:31:19.139 [conn8] insert off-fr.products ninserted:1 keyUpdates:0 locks(micros) w:523 4568ms
+Sun Sep 18 01:31:19.339 [conn8] build index off-fr.products { lc: 1 }
+Sun Sep 18 01:31:29.039 [conn8] 		Index: (1/3) External Sort Progress: 18800/68483	27%
+Sun Sep 18 01:31:39.423 [conn8] 		Index: (1/3) External Sort Progress: 28100/68483	41%
+Sun Sep 18 01:31:55.634 [conn8] 		Index: (1/3) External Sort Progress: 39500/68483	57%
+Sun Sep 18 01:32:05.003 [conn8] 		Index: (1/3) External Sort Progress: 58100/68483	84%
+Sun Sep 18 01:32:11.990 [conn8] 	 external sort used : 0 files  in 52 secs
+Sun Sep 18 01:32:13.400 [conn8] 	 done building bottom layer, going to commit
+Sun Sep 18 01:32:13.471 [conn8] build index done.  scanned 68483 total records. 54.131 secs
+Sun Sep 18 01:32:13.479 [conn8] insert off-fr.system.indexes ninserted:1 keyUpdates:0 locks(micros) w:54133312 54140ms
+Sun Sep 18 01:32:13.483 [conn8] build index off-fr.products { lc: 1, last_modified_t: -1 }
+Sun Sep 18 01:32:23.048 [conn8] 		Index: (1/3) External Sort Progress: 15000/68483	21%
+Sun Sep 18 01:32:33.046 [conn8] 		Index: (1/3) External Sort Progress: 30000/68483	43%
+Sun Sep 18 01:32:43.012 [conn8] 		Index: (1/3) External Sort Progress: 46700/68483	68%
+Sun Sep 18 01:32:55.246 [conn8] 		Index: (1/3) External Sort Progress: 55200/68483	80%
+Sun Sep 18 01:33:07.130 [conn8] 	 external sort used : 0 files  in 53 secs
+Sun Sep 18 01:33:08.393 [conn8] 	 done building bottom layer, going to commit
+Sun Sep 18 01:33:08.545 [conn8] build index done.  scanned 68483 total records. 55.061 secs
+Sun Sep 18 01:33:08.551 [conn8] insert off-fr.system.indexes ninserted:1 keyUpdates:0 locks(micros) w:55062777 55068ms
+Sun Sep 18 01:33:08.558 [conn8] build index off-fr.products { lc: 1, last_modified_t: 1 }
+Sun Sep 18 01:33:18.044 [conn8] 		Index: (1/3) External Sort Progress: 14600/68483	21%
+Sun Sep 18 01:33:28.059 [conn8] 		Index: (1/3) External Sort Progress: 29800/68483	43%
+Sun Sep 18 01:33:38.027 [conn8] 		Index: (1/3) External Sort Progress: 43500/68483	63%
+Sun Sep 18 01:33:48.002 [conn8] 		Index: (1/3) External Sort Progress: 57600/68483	84%
+Sun Sep 18 01:33:58.797 [conn8] 	 external sort used : 0 files  in 50 secs
+Sun Sep 18 01:34:00.045 [conn8] 	 done building bottom layer, going to commit
+Sun Sep 18 01:34:00.194 [conn8] build index done.  scanned 68483 total records. 51.635 secs
+Sun Sep 18 01:34:00.201 [conn8] insert off-fr.system.indexes ninserted:1 keyUpdates:0 locks(micros) w:51636969 51643ms
+Sun Sep 18 01:34:00.207 [conn8] build index off-fr.products { code: 1 }
+Sun Sep 18 01:34:10.018 [conn8] 		Index: (1/3) External Sort Progress: 12900/68483	18%
+Sun Sep 18 01:34:20.005 [conn8] 		Index: (1/3) External Sort Progress: 23100/68483	33%
+Sun Sep 18 01:34:30.054 [conn8] 		Index: (1/3) External Sort Progress: 37000/68483	54%
+Sun Sep 18 01:34:40.028 [conn8] 		Index: (1/3) External Sort Progress: 48400/68483	70%
+Sun Sep 18 01:34:50.048 [conn8] 		Index: (1/3) External Sort Progress: 65000/68483	94%
+Sun Sep 18 01:34:54.087 [conn8] 	 external sort used : 0 files  in 53 secs
+Sun Sep 18 01:34:55.008 [conn8] 	 done building bottom layer, going to commit
+Sun Sep 18 01:34:55.087 [conn8] build index done.  scanned 68483 total records. 54.879 secs
+Sun Sep 18 01:34:55.094 [conn8] insert off-fr.system.indexes ninserted:1 keyUpdates:0 locks(micros) w:54880841 54887ms
+Sun Sep 18 01:34:55.100 [conn8] build index off-fr.products { product_name: 1, generic_name: 1, last_modified_t: 1, lc: 1, code: 1 }
+Sun Sep 18 01:35:05.167 [conn8] 		Index: (1/3) External Sort Progress: 15000/68483	21%
+Sun Sep 18 01:35:15.012 [conn8] 		Index: (1/3) External Sort Progress: 29200/68483	42%
+Sun Sep 18 01:35:25.035 [conn8] 		Index: (1/3) External Sort Progress: 43500/68483	63%
+Sun Sep 18 01:35:35.037 [conn8] 		Index: (1/3) External Sort Progress: 53700/68483	78%
+Sun Sep 18 01:35:45.469 [conn8] 	 external sort used : 0 files  in 50 secs
+Sun Sep 18 01:35:47.066 [conn8] 	 done building bottom layer, going to commit
+Sun Sep 18 01:35:47.222 [conn8] build index done.  scanned 68483 total records. 52.12 secs
+Sun Sep 18 01:35:47.230 [conn8] insert off-fr.system.indexes ninserted:1 keyUpdates:0 locks(micros) w:52122403 52129ms
+Sun Sep 18 01:35:47.271 [conn8] build index off-fr.products { lc: 1, complete: -1, last_modified_t: -1, product_name: 1, generic_name: 1 }
+Sun Sep 18 01:35:57.004 [conn8] 		Index: (1/3) External Sort Progress: 9700/68483	14%
+Sun Sep 18 01:36:08.199 [conn8] 		Index: (1/3) External Sort Progress: 22600/68483	33%
+Sun Sep 18 01:36:18.050 [conn8] 		Index: (1/3) External Sort Progress: 36900/68483	53%
+Sun Sep 18 01:36:29.738 [conn8] 		Index: (1/3) External Sort Progress: 48600/68483	70%
+Sun Sep 18 01:36:39.001 [conn8] 		Index: (1/3) External Sort Progress: 62900/68483	91%
+Sun Sep 18 01:36:50.374 [conn8] 	 external sort used : 0 files  in 63 secs
+Sun Sep 18 01:36:52.055 [conn8] 	 done building bottom layer, going to commit
+Sun Sep 18 01:36:52.225 [conn8] build index done.  scanned 68483 total records. 64.953 secs
+Sun Sep 18 01:36:52.234 [conn8] insert off-fr.system.indexes ninserted:1 keyUpdates:0 locks(micros) w:64954723 64963ms
+Sun Sep 18 01:36:53.922 [conn8] build index off-fr.products { complete: -1, last_modified_t: -1, product_name: 1, generic_name: 1 }
+Sun Sep 18 01:37:03.015 [conn8] 		Index: (1/3) External Sort Progress: 17400/68483	25%
+Sun Sep 18 01:37:13.001 [conn8] 		Index: (1/3) External Sort Progress: 29900/68483	43%
+Sun Sep 18 01:37:23.024 [conn8] 		Index: (1/3) External Sort Progress: 46500/68483	67%
+Sun Sep 18 01:37:33.028 [conn8] 		Index: (1/3) External Sort Progress: 55900/68483	81%
+Sun Sep 18 01:37:44.516 [conn8] 	 external sort used : 0 files  in 50 secs
+Sun Sep 18 01:37:45.978 [conn8] 	 done building bottom layer, going to commit
+Sun Sep 18 01:37:46.142 [conn8] build index done.  scanned 68483 total records. 52.219 secs
+Sun Sep 18 01:37:46.150 [conn8] insert off-fr.system.indexes ninserted:1 keyUpdates:0 locks(micros) w:52221723 52229ms
+Sun Sep 18 01:37:48.260 [conn8] build index off-fr.products { _keywords: 1, complete: -1, last_modified_t: -1, product_name: 1, generic_name: 1 }
+Sun Sep 18 01:37:58.052 [conn8] 		Index: (1/3) External Sort Progress: 7500/68483	10%
+Sun Sep 18 01:38:09.513 [conn8] 		Index: (1/3) External Sort Progress: 12000/68483	17%
+Sun Sep 18 01:38:19.005 [conn8] 		Index: (1/3) External Sort Progress: 17500/68483	25%
+Sun Sep 18 01:38:39.206 [conn8] 		Index: (1/3) External Sort Progress: 19800/68483	28%
+Sun Sep 18 01:38:49.330 [conn8] 		Index: (1/3) External Sort Progress: 24600/68483	35%
+Sun Sep 18 01:38:59.161 [conn8] 		Index: (1/3) External Sort Progress: 29700/68483	43%
+Sun Sep 18 01:39:23.121 [conn8] 		Index: (1/3) External Sort Progress: 35000/68483	51%
+Sun Sep 18 01:39:33.021 [conn8] 		Index: (1/3) External Sort Progress: 40500/68483	59%
+Sun Sep 18 01:39:43.051 [conn8] 		Index: (1/3) External Sort Progress: 46400/68483	67%
+Sun Sep 18 01:39:54.511 [conn8] 		Index: (1/3) External Sort Progress: 53500/68483	78%
+Sun Sep 18 01:40:05.156 [conn8] 		Index: (1/3) External Sort Progress: 54000/68483	78%
+Sun Sep 18 01:40:15.070 [conn8] 		Index: (1/3) External Sort Progress: 61500/68483	89%
+Sun Sep 18 01:40:25.685 [conn8] 		Index: (1/3) External Sort Progress: 67600/68483	98%
+Sun Sep 18 01:40:27.120 [conn8] 	 external sort used : 12 files  in 158 secs
+Sun Sep 18 01:40:37.000 [conn8] 		Index: (2/3) BTree Bottom Up Progress: 73300/769299	9%
+Sun Sep 18 01:40:47.359 [conn8] 		Index: (2/3) BTree Bottom Up Progress: 136900/769299	17%
+Sun Sep 18 01:40:57.590 [conn8] 		Index: (2/3) BTree Bottom Up Progress: 146000/769299	18%
+Sun Sep 18 01:41:07.007 [conn8] 		Index: (2/3) BTree Bottom Up Progress: 183800/769299	23%
+Sun Sep 18 01:41:17.007 [conn8] 		Index: (2/3) BTree Bottom Up Progress: 256000/769299	33%
+Sun Sep 18 01:41:27.014 [conn8] 		Index: (2/3) BTree Bottom Up Progress: 297400/769299	38%
+Sun Sep 18 01:41:37.000 [conn8] 		Index: (2/3) BTree Bottom Up Progress: 358100/769299	46%
+Sun Sep 18 01:41:49.445 [conn8] 		Index: (2/3) BTree Bottom Up Progress: 429600/769299	55%
+Sun Sep 18 01:41:59.010 [conn8] 		Index: (2/3) BTree Bottom Up Progress: 471400/769299	61%
+Sun Sep 18 01:42:09.013 [conn8] 		Index: (2/3) BTree Bottom Up Progress: 537200/769299	69%
+Sun Sep 18 01:42:19.004 [conn8] 		Index: (2/3) BTree Bottom Up Progress: 579000/769299	75%
+Sun Sep 18 01:42:29.009 [conn8] 		Index: (2/3) BTree Bottom Up Progress: 655700/769299	85%
+Sun Sep 18 01:42:39.432 [conn8] 		Index: (2/3) BTree Bottom Up Progress: 714300/769299	92%
+Sun Sep 18 01:42:49.058 [conn8] 		Index: (2/3) BTree Bottom Up Progress: 742700/769299	96%
+Sun Sep 18 01:42:52.506 [conn8] 	 done building bottom layer, going to commit
+Sun Sep 18 01:43:02.509 [conn8] DR101 latency warning on journal file open 737ms
+Sun Sep 18 01:43:45.290 [PeriodicTask::Runner] task: DBConnectionPool-cleaner took: 465ms
+Sun Sep 18 01:43:50.284 [conn8] build index done.  scanned 68483 total records. 362.023 secs
+Sun Sep 18 01:43:50.301 [conn8] insert off-fr.system.indexes ninserted:1 keyUpdates:0 locks(micros) w:362034143 362041ms
+Sun Sep 18 01:43:50.324 [conn8] build index off-fr.products { sortkey: -1 }
+Sun Sep 18 01:44:00.024 [conn8] 		Index: (1/3) External Sort Progress: 16100/68483	23%
+Sun Sep 18 01:44:10.019 [conn8] 		Index: (1/3) External Sort Progress: 30200/68483	44%
+Sun Sep 18 01:44:20.015 [conn8] 		Index: (1/3) External Sort Progress: 39000/68483	56%
+Sun Sep 18 01:44:30.022 [conn8] 		Index: (1/3) External Sort Progress: 51300/68483	74%
+Sun Sep 18 01:44:43.256 [conn8] 	 external sort used : 0 files  in 52 secs
+Sun Sep 18 01:44:44.449 [conn8] 	 done building bottom layer, going to commit
+Sun Sep 18 01:44:44.598 [conn8] build index done.  scanned 68483 total records. 54.273 secs
+Sun Sep 18 01:44:44.611 [conn8] insert off-fr.system.indexes ninserted:1 keyUpdates:0 locks(micros) w:54275892 54288ms
+Sun Sep 18 01:44:44.723 [conn8] build index off-fr.products { last_modified_t: -1 }
+Sun Sep 18 01:44:54.025 [conn8] 		Index: (1/3) External Sort Progress: 10500/68483	15%
+Sun Sep 18 01:45:04.021 [conn8] 		Index: (1/3) External Sort Progress: 19300/68483	28%
+Sun Sep 18 01:45:14.044 [conn8] 		Index: (1/3) External Sort Progress: 33800/68483	49%
+Sun Sep 18 01:45:24.006 [conn8] 		Index: (1/3) External Sort Progress: 51200/68483	74%
+Sun Sep 18 01:45:36.851 [conn8] 	 external sort used : 0 files  in 52 secs
+Sun Sep 18 01:45:38.095 [conn8] 	 done building bottom layer, going to commit
+Sun Sep 18 01:45:38.244 [conn8] build index done.  scanned 68483 total records. 53.52 secs
+Sun Sep 18 01:45:38.251 [conn8] insert off-fr.system.indexes ninserted:1 keyUpdates:0 locks(micros) w:53626701 53633ms
+Sun Sep 18 01:45:38.256 [conn8] build index off-fr.products { created_t: -1 }
+Sun Sep 18 01:45:48.022 [conn8] 		Index: (1/3) External Sort Progress: 15400/68483	22%
+Sun Sep 18 01:45:58.056 [conn8] 		Index: (1/3) External Sort Progress: 21600/68483	31%
+Sun Sep 18 01:46:08.000 [conn8] 		Index: (1/3) External Sort Progress: 33900/68483	49%
+Sun Sep 18 01:46:20.427 [conn8] 		Index: (1/3) External Sort Progress: 47300/68483	69%
+Sun Sep 18 01:46:30.012 [conn8] 		Index: (1/3) External Sort Progress: 65400/68483	95%
+Sun Sep 18 01:46:35.730 [conn8] 	 external sort used : 0 files  in 57 secs
+Sun Sep 18 01:46:36.837 [conn8] 	 done building bottom layer, going to commit
+Sun Sep 18 01:46:36.982 [conn8] build index done.  scanned 68483 total records. 58.726 secs
+Sun Sep 18 01:46:36.991 [conn8] insert off-fr.system.indexes ninserted:1 keyUpdates:0 locks(micros) w:58727742 58735ms
+Sun Sep 18 01:46:36.995 [conn8] build index off-fr.products { sortkey: -1, countries_tags: 1 }
+Sun Sep 18 01:46:46.029 [conn8] 		Index: (1/3) External Sort Progress: 13400/68483	19%
+Sun Sep 18 01:46:56.031 [conn8] 		Index: (1/3) External Sort Progress: 22500/68483	32%
+Sun Sep 18 01:47:06.040 [conn8] 		Index: (1/3) External Sort Progress: 31700/68483	46%
+Sun Sep 18 01:47:16.017 [conn8] 		Index: (1/3) External Sort Progress: 47800/68483	69%
+Sun Sep 18 01:47:26.001 [conn8] 		Index: (1/3) External Sort Progress: 65800/68483	96%
+Sun Sep 18 01:47:32.122 [conn8] 	 external sort used : 2 files  in 55 secs
+Sun Sep 18 01:47:36.612 [conn8] 	 done building bottom layer, going to commit
+Sun Sep 18 01:47:36.630 [conn8] build index done.  scanned 68483 total records. 59.634 secs
+Sun Sep 18 01:47:36.641 [conn8] insert off-fr.system.indexes ninserted:1 keyUpdates:0 locks(micros) w:59635926 59646ms
+Sun Sep 18 01:47:36.645 [conn8] build index off-fr.products { last_modified_t: -1, countries_tags: 1 }
+Sun Sep 18 01:47:46.030 [conn8] 		Index: (1/3) External Sort Progress: 14000/68483	20%
+Sun Sep 18 01:47:56.019 [conn8] 		Index: (1/3) External Sort Progress: 26900/68483	39%
+Sun Sep 18 01:48:06.033 [conn8] 		Index: (1/3) External Sort Progress: 40500/68483	59%
+Sun Sep 18 01:48:16.034 [conn8] 		Index: (1/3) External Sort Progress: 52500/68483	76%
+Sun Sep 18 01:48:28.168 [conn8] 		Index: (1/3) External Sort Progress: 66700/68483	97%
+Sun Sep 18 01:48:29.114 [conn8] 	 external sort used : 2 files  in 52 secs
+Sun Sep 18 01:48:33.469 [conn8] 	 done building bottom layer, going to commit
+Sun Sep 18 01:48:33.486 [conn8] build index done.  scanned 68483 total records. 56.84 secs
+Sun Sep 18 01:48:33.491 [conn8] insert off-fr.system.indexes ninserted:1 keyUpdates:0 locks(micros) w:56841531 56846ms
+Sun Sep 18 01:48:33.500 [conn8] build index off-fr.products { last_modified_t: -1, _keywords: 1 }
+Sun Sep 18 01:48:46.006 [conn8] 		Index: (1/3) External Sort Progress: 8600/68483	12%
+Sun Sep 18 01:48:57.358 [conn8] 		Index: (1/3) External Sort Progress: 14100/68483	20%
+Sun Sep 18 01:49:07.107 [conn8] 		Index: (1/3) External Sort Progress: 19900/68483	29%
+Sun Sep 18 01:49:17.223 [conn8] 		Index: (1/3) External Sort Progress: 24600/68483	35%
+Sun Sep 18 01:49:30.278 [conn8] 		Index: (1/3) External Sort Progress: 29700/68483	43%
+Sun Sep 18 01:49:40.006 [conn8] 		Index: (1/3) External Sort Progress: 35500/68483	51%
+Sun Sep 18 01:49:50.075 [conn8] 		Index: (1/3) External Sort Progress: 40400/68483	58%
+Sun Sep 18 01:50:00.016 [conn8] 		Index: (1/3) External Sort Progress: 46600/68483	68%
+Sun Sep 18 01:50:10.073 [conn8] 		Index: (1/3) External Sort Progress: 54500/68483	79%
+Sun Sep 18 01:50:20.051 [conn8] 		Index: (1/3) External Sort Progress: 61800/68483	90%
+Sun Sep 18 01:50:30.016 [conn8] 		Index: (1/3) External Sort Progress: 67800/68483	99%
+Sun Sep 18 01:50:31.336 [conn8] 	 external sort used : 12 files  in 117 secs
+Sun Sep 18 01:50:41.006 [conn8] 		Index: (2/3) BTree Bottom Up Progress: 89800/769299	11%
+Sun Sep 18 01:50:51.009 [conn8] 		Index: (2/3) BTree Bottom Up Progress: 184300/769299	23%
+Sun Sep 18 01:51:01.004 [conn8] 		Index: (2/3) BTree Bottom Up Progress: 265900/769299	34%
+Sun Sep 18 01:51:11.006 [conn8] 		Index: (2/3) BTree Bottom Up Progress: 360100/769299	46%
+Sun Sep 18 01:51:21.003 [conn8] 		Index: (2/3) BTree Bottom Up Progress: 454400/769299	59%
+Sun Sep 18 01:51:31.007 [conn8] 		Index: (2/3) BTree Bottom Up Progress: 503100/769299	65%
+Sun Sep 18 01:51:41.010 [conn8] 		Index: (2/3) BTree Bottom Up Progress: 593400/769299	77%
+Sun Sep 18 01:51:51.003 [conn8] 		Index: (2/3) BTree Bottom Up Progress: 688000/769299	89%
+Sun Sep 18 01:51:59.561 [conn8] 	 done building bottom layer, going to commit
+Sun Sep 18 01:52:06.185 [conn8] build index done.  scanned 68483 total records. 212.684 secs
+Sun Sep 18 01:52:06.418 [conn8] insert off-fr.system.indexes ninserted:1 keyUpdates:0 locks(micros) w:212909443 212918ms
+Sun Sep 18 01:52:06.437 [conn8] build index off-fr.products { sortkey: -1, _keywords: 1 }
+Sun Sep 18 01:52:19.080 [conn8] 		Index: (1/3) External Sort Progress: 200/68483	0%
+Sun Sep 18 01:52:29.017 [conn8] 		Index: (1/3) External Sort Progress: 9000/68483	13%
+Sun Sep 18 01:52:39.024 [conn8] 		Index: (1/3) External Sort Progress: 14500/68483	21%
+Sun Sep 18 01:52:53.694 [conn8] 		Index: (1/3) External Sort Progress: 19700/68483	28%
+Sun Sep 18 01:53:03.225 [conn8] 		Index: (1/3) External Sort Progress: 24600/68483	35%
+Sun Sep 18 01:53:13.175 [conn8] 		Index: (1/3) External Sort Progress: 29700/68483	43%
+Sun Sep 18 01:53:23.055 [conn8] 		Index: (1/3) External Sort Progress: 35700/68483	52%
+Sun Sep 18 01:53:33.315 [conn8] 		Index: (1/3) External Sort Progress: 40000/68483	58%
+Sun Sep 18 01:53:43.296 [conn8] 		Index: (1/3) External Sort Progress: 45200/68483	66%
+Sun Sep 18 01:53:53.400 [conn8] 		Index: (1/3) External Sort Progress: 53500/68483	78%
+Sun Sep 18 01:54:03.841 [conn8] 		Index: (1/3) External Sort Progress: 61400/68483	89%
+Sun Sep 18 01:54:13.626 [conn8] 		Index: (1/3) External Sort Progress: 66400/68483	96%
+Sun Sep 18 01:54:16.928 [conn8] 	 external sort used : 12 files  in 130 secs
+Sun Sep 18 01:54:26.009 [conn8] 		Index: (2/3) BTree Bottom Up Progress: 75000/769299	9%
+Sun Sep 18 01:54:36.009 [conn8] 		Index: (2/3) BTree Bottom Up Progress: 172800/769299	22%
+Sun Sep 18 01:54:46.012 [conn8] 		Index: (2/3) BTree Bottom Up Progress: 269800/769299	35%
+Sun Sep 18 01:54:56.004 [conn8] 		Index: (2/3) BTree Bottom Up Progress: 366700/769299	47%
+Sun Sep 18 01:55:06.003 [conn8] 		Index: (2/3) BTree Bottom Up Progress: 460900/769299	59%
+Sun Sep 18 01:55:16.007 [conn8] 		Index: (2/3) BTree Bottom Up Progress: 519200/769299	67%
+Sun Sep 18 01:55:26.006 [conn8] 		Index: (2/3) BTree Bottom Up Progress: 609800/769299	79%
+Sun Sep 18 01:55:36.009 [conn8] 		Index: (2/3) BTree Bottom Up Progress: 698600/769299	90%
+Sun Sep 18 01:55:42.617 [conn8] ERROR:   mmap() failed for /var/lib/mongodb/off-fr.6 len:536608768 errno:12 Cannot allocate memory
+Sun Sep 18 01:55:42.620 [conn8] ERROR: mmap failed with out of memory. You are using a 32-bit build and probably need to upgrade to 64
+Sun Sep 18 01:55:42.679 [conn8] error building index: 10084 can't map file memory - mongo requires 64 bit build for larger datasets
+Sun Sep 18 01:55:42.692 [conn8] ERROR:   mmap() failed for /var/lib/mongodb/off-fr.6 len:536608768 errno:12 Cannot allocate memory
+Sun Sep 18 01:55:42.692 [conn8] ERROR: mmap failed with out of memory. You are using a 32-bit build and probably need to upgrade to 64
+Sun Sep 18 01:55:42.711 [conn8] insert off-fr.system.indexes keyUpdates:0 exception: can't map file memory - mongo requires 64 bit build for larger datasets code:10084 locks(micros) w:216269975 216274ms
+Sun Sep 18 01:55:42.826 [conn8] end connection 127.0.0.1:41396 (0 connections now open)
+Sun Sep 18 02:18:16.781 [initandlisten] connection accepted from 127.0.0.1:41398 #9 (1 connection now open)
+Sun Sep 18 02:21:49.804 [conn9] build index off-fr.products { sortkey: -1, _keywords: 1 }
+Sun Sep 18 02:21:59.629 [conn9] 		Index: (1/3) External Sort Progress: 8600/68483	12%
+Sun Sep 18 02:22:09.092 [conn9] 		Index: (1/3) External Sort Progress: 14200/68483	20%
+Sun Sep 18 02:22:19.082 [conn9] 		Index: (1/3) External Sort Progress: 20000/68483	29%
+Sun Sep 18 02:22:29.054 [conn9] 		Index: (1/3) External Sort Progress: 25400/68483	37%
+Sun Sep 18 02:22:39.512 [conn9] 		Index: (1/3) External Sort Progress: 29700/68483	43%
+Sun Sep 18 02:22:45.316 [PeriodicTask::Runner] task: WriteBackManager::cleaner took: 5ms
+Sun Sep 18 02:22:49.263 [conn9] 		Index: (1/3) External Sort Progress: 35000/68483	51%
+Sun Sep 18 02:22:59.178 [conn9] 		Index: (1/3) External Sort Progress: 40000/68483	58%
+Sun Sep 18 02:23:10.612 [conn9] 		Index: (1/3) External Sort Progress: 45200/68483	66%
+Sun Sep 18 02:23:20.395 [conn9] 		Index: (1/3) External Sort Progress: 53500/68483	78%
+Sun Sep 18 02:23:30.430 [conn9] 		Index: (1/3) External Sort Progress: 61400/68483	89%
+Sun Sep 18 02:23:40.021 [conn9] 		Index: (1/3) External Sort Progress: 67100/68483	97%
+Sun Sep 18 02:23:41.751 [conn9] 	 external sort used : 12 files  in 111 secs
+Sun Sep 18 02:23:41.754 [conn9] ERROR:   mmap() failed for /var/lib/mongodb/off-fr.6 len:536608768 errno:12 Cannot allocate memory
+Sun Sep 18 02:23:41.754 [conn9] ERROR: mmap failed with out of memory. You are using a 32-bit build and probably need to upgrade to 64
+Sun Sep 18 02:23:41.789 [conn9] error building index: 10084 can't map file memory - mongo requires 64 bit build for larger datasets
+Sun Sep 18 02:23:41.793 [conn9] ERROR:   mmap() failed for /var/lib/mongodb/off-fr.6 len:536608768 errno:12 Cannot allocate memory
+Sun Sep 18 02:23:41.793 [conn9] ERROR: mmap failed with out of memory. You are using a 32-bit build and probably need to upgrade to 64
+Sun Sep 18 02:23:41.800 [conn9] insert off-fr.system.indexes keyUpdates:0 exception: can't map file memory - mongo requires 64 bit build for larger datasets code:10084 locks(micros) w:111992198 111996ms
+Sun Sep 18 02:23:41.824 [conn9] end connection 127.0.0.1:41398 (0 connections now open)
+Sun Sep 18 03:35:21.579 [initandlisten] connection accepted from 127.0.0.1:41438 #10 (1 connection now open)
+Sun Sep 18 03:35:21.920 [conn10] insert off-fr.products keyUpdates:0 exception: E11000 duplicate key error index: off-fr.products.$_id_  dup key: { : "00000000000" } code:11000 locks(micros) w:207726 201ms
+Sun Sep 18 03:38:57.530 [conn10] build index off-fr.products { sortkey: -1, _keywords: 1 }
+Sun Sep 18 03:39:08.451 [conn10] 		Index: (1/3) External Sort Progress: 8600/68483	12%
+Sun Sep 18 03:39:18.018 [conn10] 		Index: (1/3) External Sort Progress: 14700/68483	21%
+Sun Sep 18 03:39:28.070 [conn10] 		Index: (1/3) External Sort Progress: 20500/68483	29%
+Sun Sep 18 03:39:38.085 [conn10] 		Index: (1/3) External Sort Progress: 25900/68483	37%
+Sun Sep 18 03:39:48.083 [conn10] 		Index: (1/3) External Sort Progress: 30700/68483	44%
+Sun Sep 18 03:39:59.173 [conn10] 		Index: (1/3) External Sort Progress: 35000/68483	51%
+Sun Sep 18 03:40:10.414 [conn10] 		Index: (1/3) External Sort Progress: 40000/68483	58%
+Sun Sep 18 03:40:20.870 [conn10] 		Index: (1/3) External Sort Progress: 45200/68483	66%
+Sun Sep 18 03:40:30.799 [conn10] 		Index: (1/3) External Sort Progress: 53500/68483	78%
+Sun Sep 18 03:40:41.768 [conn10] 		Index: (1/3) External Sort Progress: 61400/68483	89%
+Sun Sep 18 03:40:53.634 [conn10] 		Index: (1/3) External Sort Progress: 66400/68483	96%
+Sun Sep 18 03:40:55.806 [conn10] 	 external sort used : 12 files  in 118 secs
+Sun Sep 18 03:40:55.839 [conn10] ERROR:   mmap() failed for /var/lib/mongodb/off-fr.6 len:536608768 errno:12 Cannot allocate memory
+Sun Sep 18 03:40:55.844 [conn10] ERROR: mmap failed with out of memory. You are using a 32-bit build and probably need to upgrade to 64
+Sun Sep 18 03:40:55.896 [conn10] error building index: 10084 can't map file memory - mongo requires 64 bit build for larger datasets
+Sun Sep 18 03:40:55.929 [conn10] ERROR:   mmap() failed for /var/lib/mongodb/off-fr.6 len:536608768 errno:12 Cannot allocate memory
+Sun Sep 18 03:40:55.929 [conn10] ERROR: mmap failed with out of memory. You are using a 32-bit build and probably need to upgrade to 64
+Sun Sep 18 03:40:55.942 [conn10] insert off-fr.system.indexes keyUpdates:0 exception: can't map file memory - mongo requires 64 bit build for larger datasets code:10084 locks(micros) w:118428710 118430ms
+Sun Sep 18 03:40:55.981 [conn10] end connection 127.0.0.1:41438 (0 connections now open)
