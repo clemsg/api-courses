@@ -41,7 +41,7 @@ $app->get('/api/produitInfo/{codeBarre}', function($codeBarre) use ($app){
     if($retour->status == 0){
         return $app->json('barre Code not found', 404);
     }else{
-        $tabProduct = array(
+        $tabProduct['data'] = array(
             'nom' => $retour->product->generic_name_fr,
             'marque' => $retour->product->brands,
             'code_barre' => $retour->product->id
